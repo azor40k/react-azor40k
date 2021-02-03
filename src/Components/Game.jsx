@@ -1,7 +1,7 @@
-const Mode = () => (
+const Game = () => (
     <section>
-        okokokokkokokook
+        GAME ON
     </section>
 )
 
-export default Mode;
+export default Game;
