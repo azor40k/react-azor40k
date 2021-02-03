@@ -1,12 +1,10 @@
-import Presentation from './Components/Presentation'
-import PlayButton from './Components/PlayButton'
+import Routing from './Route/Router'
 import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <Presentation />
-      <PlayButton />
+        <Routing />
     </div>
   );
 }

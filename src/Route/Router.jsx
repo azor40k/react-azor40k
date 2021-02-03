@@ -1,14 +1,18 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
-import Card from '../components/Card';
-import HeaderEffect from '../components/HeaderEffect';
+import Home from '../Components/Home';
+import Mode from '../Components/Mode';
+import Game from '../Components/Game';
+import NotFound from '../Components/NotFound';
+
 
 const Routing = () => (
     <Router>
         <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/app" component={Mode} />
-            <Route path="*" component={NotFound} />
+            <Route exact path="/" component={Home}/>
+            <Route exact path="/app" component={Mode}/>
+            <Route exact path="/app/quizz" component={Game}/>
+            <Route path="*" component={NotFound}/>
         </Switch>
     </Router>
 );
