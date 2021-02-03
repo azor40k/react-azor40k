@@ -1,5 +1,5 @@
 const useCustom = () => {
-    const template = 'Je suis une template de customHooks'; 
+    const template = 'Je suis une template de customHooks';
     return template;
 };
 
