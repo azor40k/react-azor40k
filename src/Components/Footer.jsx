@@ -1,11 +1,10 @@
 import '../Sass/components/Footer.scss';
-import CityList from './CityList';
+import CitysList from './CitysList';
 
 const Footer = () => {
     return (
         <footer className="footer">
-            <h1>Footer</h1>
-            <CityList />
+            <CitysList />
         </footer>
     );
 };
