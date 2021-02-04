@@ -1,6 +1,11 @@
+import QuizzButtonsList from "./QuizzButtonsList";
+import '../Sass/components/Mode.scss';
+
+
 const Mode = () => (
     <section>
-        Choisir quizz
+        <h1 className="title-theme">Choisissez votre thème</h1>
+        <QuizzButtonsList />
     </section>
 )
 
