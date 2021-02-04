@@ -1,0 +1,15 @@
+@import "../helpers/_variables";
+
+.GameHeader {
+  display: flex;
+  width: 100%;
+  height: 40px;
+}
+
+.GameHeader > section {
+  width: 50%;
+}
+
+.GameHeader > #score {
+  text-align: right;
+}

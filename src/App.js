@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import Routing from './Route/Router'
 import './App.scss';
 
