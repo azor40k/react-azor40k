@@ -3,7 +3,7 @@ import '../Sass/components/CitysList.scss';
 
 const CitysList = () => {
 
-    const citysList = ['paris', 'london', 'tokyo']
+    const citysList = ['paris', 'port-louis', 'new-york']
 
     return (
         <div className="citysList">

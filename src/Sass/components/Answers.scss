@@ -33,3 +33,11 @@
       background-color: $game-dark-green;
   }
 }
+
+.grey {
+  background-color: $game-grey-answer;
+  &:hover{
+      background-color: $game-dark-grey-answer;
+  }
+}
+
