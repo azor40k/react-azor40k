@@ -1,5 +1,4 @@
 import '../Sass/components/AnswerButton.scss';
-import { useState } from 'react';
 
 const AnswerButton = ({ color, answer, setQuestionNb, changeToGray, setBaseColors, setScore, setQuestionIncrement, disableButton, setDisableButton }) => {
 

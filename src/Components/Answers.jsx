@@ -9,10 +9,8 @@ const Answers = ({ setQuestionNb, answers, setQuestionIncrement, setScore }) => 
     const [disableButton, setDisableButton] = useState(false)
     
     const changeToGray = () => {
-        console.log('BIM')
         setBaseColors(["grey", "grey", "grey", "grey"])
-        console.log(baseColors)
-    }
+    };
 
     return (
         <section className="Answers">
