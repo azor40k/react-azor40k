@@ -5,7 +5,7 @@ import Footer from './Footer';
 const Home = () => (
     <section>
         <Presentation />
-        <PlayButton />
+        <PlayButton message="Jouer"/>
         <Footer />
     </section>
 )

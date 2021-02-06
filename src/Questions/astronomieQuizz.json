@@ -78,5 +78,13 @@
         "answer2": ["Chine", true],
         "answer3": ["Inde", false],
         "answer4": ["Russe", false]
+    },
+    {
+        "id": 11,
+        "question": "FINI",
+        "answer1": ["FINI", false],
+        "answer2": ["FINI", false],
+        "answer3": ["FINI", false],
+        "answer4": ["FINI", false]
     }
 ]
