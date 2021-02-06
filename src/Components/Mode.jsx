@@ -1,12 +1,14 @@
 import QuizzButtonsList from "./QuizzButtonsList";
 import '../Sass/components/Mode.scss';
 
-
-const Mode = () => (
-    <section>
+const Mode = () => {
+    
+    return (
+        <section>
         <h1 className="title-theme">Choisissez votre thème</h1>
         <QuizzButtonsList />
-    </section>
-)
+        </section>
+    )
+}
 
 export default Mode;
