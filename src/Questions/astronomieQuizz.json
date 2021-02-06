@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "question": "Quelle est la planète la plus grand du système solaire ?",
+        "question": "Quelle est la planète la plus grande du système solaire ?",
         "answer1": ["Saturne", false],
         "answer2": ["Neptune", false],
         "answer3": ["Jupiter", true],
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "question": "Combien Mars possède t-il de satellites  Naturels ?",
+        "question": "Combien Mars possède t-il de satellites Naturels ?",
         "answer1": ["Aucun", false],
         "answer2": ["1", false],
         "answer3": ["6", false],
