@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "question": "DEVWEB",
+        "answer1": ["Michael Jordan", false],
+        "answer2": ["Robert Horry", false],
+        "answer3": ["Bill Russell", true],
+        "answer4": ["Magic Johnson", false]
+    },
+    {
+        "id": 2,
+        "question": "Combien de point vaut un lancer-franc",
+        "answer1": ["4", false],
+        "answer2": ["3", false],
+        "answer3": ["2", false],
+        "answer4": ["1", true]
+    },
+    {
+        "id": 3,
+        "question": "En quelle année la NBA à été créée",
+        "answer1": ["1980", false],
+        "answer2": ["1946", true],
+        "answer3": ["1915", false],
+        "answer4": ["2001", false]
+    },
+    {
+        "id": 4,
+        "question": "Quel est le joueur le plus grand (en taille) de l'histoire de la NBA",
+        "answer1": ["Gheorghe Mureșan", true],
+        "answer2": ["Yao Ming", false],
+        "answer3": ["Manute Bol", false],
+        "answer4": ["Boban Marjanović", false]
+    },
+    {
+        "id": 5,
+        "question": "Combien y a t-il d'équipe en NBA actuellement",
+        "answer1": ["32", false],
+        "answer2": ["24", false],
+        "answer3": ["28", false],
+        "answer4": ["30", true]
+    },
+    {
+        "id": 6,
+        "question": "Quelle est la franchise NBA le plus titré",
+        "answer1": ["Boston Celtics", true],
+        "answer2": ["Los Angeles Lakers", true],
+        "answer3": ["Chicago Bulls", false],
+        "answer4": ["San Antonio Spurs", false]
+    },
+    {
+        "id": 7,
+        "question": "Quel est le coach de NBA le plus titrés",
+        "answer1": ["Gregg Popovich", false],
+        "answer2": ["Phil Jackson", true],
+        "answer3": ["Steve Kerr", false],
+        "answer4": ["Red Auerbach", false]
+    },
+    {
+        "id": 8,
+        "question": "Combien de match une équipe NBA réalise pendant une saison",
+        "answer1": ["75", false],
+        "answer2": ["82", true],
+        "answer3": ["100", false],
+        "answer4": ["96", false]
+    },
+    {
+        "id": 9,
+        "question": "Quel est la taille d'un panier officiel de basketball",
+        "answer1": ["300 cm", false],
+        "answer2": ["305 cm", true],
+        "answer3": ["310 cm", false],
+        "answer4": ["295 cm", false]
+    },
+    {
+        "id": 10,
+        "question": "Quel équipe nationale à remporté le plus de titres",
+        "answer1": ["Espagne", false],
+        "answer2": ["Etats-Unis", true],
+        "answer3": ["Brésil", false],
+        "answer4": ["France", false]
+    }
+]
