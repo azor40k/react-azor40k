@@ -5,7 +5,6 @@ import Mode from '../Components/Mode';
 import Game from '../Components/Game';
 import NotFound from '../Components/NotFound';
 
-
 const Routing = () => (
     <Router>
         <Switch>
