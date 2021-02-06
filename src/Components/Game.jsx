@@ -1,18 +1,19 @@
+import { useState } from 'react';
 import GameHeader from './GameHeader'
 import Question from './Question'
 import Answers from './Answers'
-import astronomie from '../Questions/astronomieQuizz.json';
-import { useState } from 'react';
 import '../Sass/components/Game.scss';
 import Recap from './Recap';
+import astronomie from '../Questions/astronomieQuizz.json';
+import basketball from '../Questions/basketballQuizz.json';
+import manga from '../Questions/mangaQuizz.json';
+import devweb from '../Questions/devwebQuizz.json';
 
-const Game = () => {
-
-    const [astronomieQuizz] = useState(astronomie)
-    const [questionNb, setQuestionNb] = useState(0);
-
-    console.log('NUMERO QUESTION :', questionNb)
-//9
+const Game = ({ type }) => {
+        const selectedQuizz = type === 'basketball' ? basketball : type === 'astronomie' ? astronomie : type === 'manga' ? manga : devweb;
+        const [quizz] = useState(selectedQuizz)
+        const [questionNb, setQuestionNb] = useState(0);
+  
     const [score, setScore] = useState(0);
     const [questionIncrement, setQuestionIncrement] = useState(1);
     const [backgroundColor, setBackgroundColor] = useState('default');
@@ -23,8 +24,8 @@ const Game = () => {
             {questionIncrement !== 11 ? (
             <>
             <GameHeader score={score} questionIncrement={questionIncrement}/>
-            <Question question={astronomieQuizz[questionNb].question}/>
-            <Answers setQuestionNb={setQuestionNb} answers={astronomieQuizz[questionNb]} setQuestionIncrement={setQuestionIncrement} setScore={setScore} setBackgroundColor={setBackgroundColor}/>   
+            <Question question={quizz[questionNb].question}/>
+            <Answers setQuestionNb={setQuestionNb} answers={quizz[questionNb]} setQuestionIncrement={setQuestionIncrement} setScore={setScore} setBackgroundColor={setBackgroundColor}/>   
             </>) : <Recap score={score}/>}
         </section>
 )}
