@@ -1,9 +1,11 @@
 import '../Sass/components/AnswerButton.scss';
 
-const AnswerButton = ({ color, answer, setQuestionNb, changeToGray, setBaseColors, setScore, setQuestionIncrement, disableButton, setDisableButton }) => {
+const AnswerButton = ({ color, answer, setQuestionNb, changeToGray, setBaseColors, setScore, setQuestionIncrement, disableButton, setDisableButton, setBackgroundColor }) => {
 
   const submitAnswer = () => {
         answer[1] === true ? setScore(prevScore => prevScore + 1) : console.log('FAUX');
+        answer[1] === true ? setBackgroundColor('green') : setBackgroundColor('red');
+
         setDisableButton(true)
         changeToGray();
         setTimeout(() => {
@@ -11,6 +13,7 @@ const AnswerButton = ({ color, answer, setQuestionNb, changeToGray, setBaseColor
             setBaseColors(["red", "blue", "orange", "green"]);
             setQuestionIncrement(prevState => prevState + 1);  
             setDisableButton(false);
+            setBackgroundColor('default')
         }, 3000)         
   }
   return (

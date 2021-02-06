@@ -3,6 +3,7 @@ import Question from './Question'
 import Answers from './Answers'
 import astronomie from '../Questions/astronomieQuizz.json';
 import { useState } from 'react';
+import '../Sass/components/Game.scss';
 
 const Game = () => {
 
@@ -11,13 +12,14 @@ const Game = () => {
 
     const [score, setScore] = useState(0);
     const [questionIncrement, setQuestionIncrement] = useState(1);
+    const [backgroundColor, setBackgroundColor] = useState('default');
 
 
     return (
-        <section>
+        <section className={`Game ${backgroundColor}`}>
             <GameHeader score={score} questionIncrement={questionIncrement}/>
             <Question question={astronomieQuizz[questionNb].question}/>
-            <Answers setQuestionNb={setQuestionNb} answers={astronomieQuizz[questionNb]} setQuestionIncrement={setQuestionIncrement} setScore={setScore}/>
+            <Answers setQuestionNb={setQuestionNb} answers={astronomieQuizz[questionNb]} setQuestionIncrement={setQuestionIncrement} setScore={setScore} setBackgroundColor={setBackgroundColor}/>
         </section>
 )}
 
