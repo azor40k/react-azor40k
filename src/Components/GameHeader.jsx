@@ -2,10 +2,10 @@ import '../Sass/components/GameHeader.scss';
 import Score from './Score'
 import QuestionNumber from './QuestionNumber'
 
-const GameHeader = () => (
+const GameHeader = ({ score, questionIncrement }) => (
         <section className="GameHeader">
-                <QuestionNumber questionNumber="1"/>
-                <Score />
+                <QuestionNumber questionNumber={questionIncrement}/>
+                <Score score={score}/>
         </section>
 );
 
