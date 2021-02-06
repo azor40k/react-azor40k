@@ -20,7 +20,7 @@ const AnswerButton = ({ color, answer, setQuestionNb, changeToGray, setBaseColor
             setQuestionIncrement(prevState => prevState + 1);  
             setDisableButton(false);
             setBackgroundColor('default')
-        }, 3000)         
+        }, 1300)         
   }
   return (
         <>
