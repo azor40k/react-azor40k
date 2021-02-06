@@ -2,7 +2,7 @@ import { useState } from 'react';
 import '../Sass/components/Answers.scss';
 import AnswerButton from './AnswerButton'
 
-const Answers = ({ setQuestionNb, answers, setQuestionIncrement, setScore }) => {
+const Answers = ({ setQuestionNb, answers, setQuestionIncrement, setScore, setBackgroundColor }) => {
     
     const [baseColors, setBaseColors] = useState(["red", "blue", "orange", "green"]);
     const [disableButton, setDisableButton] = useState(false)
