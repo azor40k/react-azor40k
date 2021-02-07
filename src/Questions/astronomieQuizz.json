@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "question": "Quelle est la planète la plus grande du système solaire ?",
+        "question": "Quelle est la planète la plus grande du système solaire",
         "answer1": ["Saturne", false],
         "answer2": ["Neptune", false],
         "answer3": ["Jupiter", true],
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "question": "Combien Mars possède t-il de satellites Naturels ?",
+        "question": "Combien Mars possède t-il de satellites Naturels",
         "answer1": ["Aucun", false],
         "answer2": ["1", false],
         "answer3": ["6", false],
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "question": "Quelle galaxie est la plus proche de la notre ?",
+        "question": "Quelle galaxie est la plus proche de la notre",
         "answer1": ["Voie lactée", false],
         "answer2": ["La galaxie d'Amdromède", true],
         "answer3": ["Le petit nuage de Magellan", false],
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "question": "Sur quelle planète se situe le Mont Olympe ?",
+        "question": "Sur quelle planète se situe le Mont Olympe",
         "answer1": ["Mars", true],
         "answer2": ["Terre", false],
         "answer3": ["Vénus", false],
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "question": "Quel astronaute n'a jamais mis les pieds sur la lune ?",
+        "question": "Quel astronaute n'a jamais mis les pieds sur la lune",
         "answer1": ["Buzz Aldrin", false],
         "answer2": ["Neil Armstrong", false],
         "answer3": ["Michael Collins", false],
@@ -41,7 +41,7 @@
     },
     {
         "id": 6,
-        "question": "Combien y'a t-il de planètes dans le système solaire ?",
+        "question": "Combien y'a t-il de planètes dans le système solaire",
         "answer1": ["7", false],
         "answer2": ["8", true],
         "answer3": ["9", false],
@@ -49,7 +49,7 @@
     },
     {
         "id": 7,
-        "question": "Tout les combien d'annèes la comète de Halley est-elle visible dans le ciel ?",
+        "question": "Tout les combien d'annèes la comète de Halley est-elle visible dans le ciel",
         "answer1": ["13 ans", false],
         "answer2": ["76 ans", true],
         "answer3": ["142 ans", false],
@@ -57,15 +57,15 @@
     },
     {
         "id": 8,
-        "question": "Tout les combien d'annèes la comète de Halley est-elle visible dans le ciel ?",
-        "answer1": ["13 ans", false],
-        "answer2": ["76 ans", true],
-        "answer3": ["142 ans", false],
-        "answer4": ["176 ans", false]
+        "question": "Quel est le plus gros satellite naturel de Saturne",
+        "answer1": ["Lune", false],
+        "answer2": ["Titan", true],
+        "answer3": ["Dioné", false],
+        "answer4": ["Parse", false]
     },
     {
         "id": 9,
-        "question": "Quelle planète ne possède pas d'anneaux ?",
+        "question": "Quelle planète ne possède pas d'anneaux",
         "answer1": ["Saturne", false],
         "answer2": ["Jupiter", true],
         "answer3": ["Uranus", false],
@@ -73,7 +73,7 @@
     },
     {
         "id": 10,
-        "question": "Les Taïkonaute sont les noms donnés aux cosmonotes de quel pays ?",
+        "question": "Les Taïkonaute sont les noms donnés aux cosmonotes de quel pays",
         "answer1": ["Thailande", false],
         "answer2": ["Chine", true],
         "answer3": ["Inde", false],

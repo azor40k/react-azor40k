@@ -78,5 +78,13 @@
         "answer2": ["Etats-Unis", true],
         "answer3": ["Brésil", false],
         "answer4": ["France", false]
+    },
+    {
+        "id": 11,
+        "question": "FINI",
+        "answer1": ["FINI", false],
+        "answer2": ["FINI", false],
+        "answer3": ["FINI", false],
+        "answer4": ["FINI", false]
     }
 ]
