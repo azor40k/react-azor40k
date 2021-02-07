@@ -4,7 +4,7 @@ import CitysList from './CitysList';
 const Footer = () => {
     return (
         <footer className="footer">
-            {/* <CitysList /> */}
+            <CitysList />
         </footer>
     );
 };
