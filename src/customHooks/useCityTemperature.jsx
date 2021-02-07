@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import {useState, useEffect} from 'react';
 
 const useCityTemperature = (city) => {
 
@@ -24,7 +24,7 @@ const useCityTemperature = (city) => {
                                 setVille(city[0].EnglishName),
                           ),
             );
-    }, []);
+    });
 
     return {temp, ville};
 };
