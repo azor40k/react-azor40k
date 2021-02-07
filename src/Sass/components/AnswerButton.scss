@@ -1,5 +1,4 @@
 @import "../helpers/_variables";
-@import "../helpers/_variables";
 
 .AnswerButton {
   display     : block;
@@ -11,10 +10,10 @@
   font-size   : 2.5em;
   font-weight : bold;
   transition  : 0.2s;
-
+  
   &:hover {
     font-size   : 3em;
     transition  : 0.2s;
     font-weight : bolder;
-    }
   }
+}

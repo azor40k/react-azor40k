@@ -3,7 +3,7 @@ import wrongSound from '../Sounds/wrong.mp3';
 import correctSound from '../Sounds/correct.mp3';
 import useSound from 'use-sound';
 
-const AnswerButton = ({ color, answer, setQuestionNb, changeToGray, setBaseColors, setScore, setQuestionIncrement, disableButton, setDisableButton, setBackgroundColor }) => {
+const AnswerButton = ({color, answer, setQuestionNb, changeToGray, setBaseColors, setScore, setQuestionIncrement, disableButton, setDisableButton, setBackgroundColor}) => {
 
     const [correct] = useSound(correctSound);
     const [wrong] = useSound(wrongSound);
