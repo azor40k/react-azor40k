@@ -1,7 +1,7 @@
 import '../Sass/components/QuizzButton.scss';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
-const QuizzButton = ({title, color, quizz}) => {
+const QuizzButton = ({ title, color, quizz }) => {
 
     return (
         <section>
@@ -11,9 +11,7 @@ const QuizzButton = ({title, color, quizz}) => {
                 </div>
             </Link>
         </section>
-
-
     );
-}
+};
 
 export default QuizzButton;

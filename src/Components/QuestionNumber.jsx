@@ -1,4 +1,4 @@
-const QuestionNumber = ({questionNumber}) => (
+const QuestionNumber = ({ questionNumber }) => (
     <section>
         Question n° {questionNumber} / 10
     </section>

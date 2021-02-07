@@ -11,6 +11,7 @@ const NotFound = () => {
             </h1>
             <img src={naruto} alt="404 naruto" className="notFound-page-image"/>
         </section>
-    )
-}
+    );
+};
+
 export default NotFound;
