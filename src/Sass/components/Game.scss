@@ -1,0 +1,18 @@
+@import "../helpers/variables";
+
+.Game {
+  height : 100vh;
+  width  : 100vw;
+}
+
+.default {
+  background-color : $none;
+}
+
+.green {
+  background-color : $dark-green;
+}
+
+.red {
+  background-color : $red;
+}

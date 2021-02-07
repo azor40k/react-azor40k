@@ -1,0 +1,16 @@
+@import "../helpers/_variables";
+
+.quizzButtonsList {
+  display               : grid;
+  grid-template-columns : repeat(2, 2fr);
+  width                 : 100%;
+  grid-gap              : 10px;
+  position              : fixed;
+  left                  : 0;
+  top                   : 20%;
+  margin                : 1px;
+  
+  a {
+    color : $white;
+  }
+}

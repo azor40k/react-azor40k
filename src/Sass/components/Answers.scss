@@ -1,0 +1,51 @@
+@import "../helpers/_variables";
+
+.Answers {
+  display               : grid;
+  grid-template-columns : repeat(2, 2fr);
+  width                 : 100%;
+  position              : fixed;
+  left                  : 0;
+  bottom                : 5px;
+}
+
+.red {
+  background-color : $game-red;
+  
+  &:hover {
+    background-color : $game-dark-red;
+  }
+}
+
+.blue {
+  background-color : $game-blue;
+  
+  &:hover {
+    background-color : $game-dark-blue;
+  }
+}
+
+.orange {
+  background-color : $game-orange;
+  
+  &:hover {
+    background-color : $game-dark-orange;
+  }
+}
+
+.green {
+  background-color : $game-green;
+  
+  &:hover {
+    background-color : $game-dark-green;
+  }
+}
+
+.grey {
+  background-color : $game-grey-answer;
+  
+  &:hover {
+    background-color : $game-dark-grey-answer;
+  }
+}
+

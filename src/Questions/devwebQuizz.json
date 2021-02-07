@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "question": "Lequel n'est pas un Framework Javascript",
+        "answer1": ["React", false],
+        "answer2": ["Angular", false],
+        "answer3": ["Django", true],
+        "answer4": ["Svelte", false]
+    },
+    {
+        "id": 2,
+        "question": "Lequel n'est pas un Framework PHP",
+        "answer1": ["Symfony", false],
+        "answer2": ["Laravel", false],
+        "answer3": ["CodeIgniter", false],
+        "answer4": ["Grails", true]
+    },
+    {
+        "id": 3,
+        "question": "Lequel n'est pas une Méthode HTTP",
+        "answer1": ["GET", false],
+        "answer2": ["UPDATE", true],
+        "answer3": ["TRACE", false],
+        "answer4": ["CONNECT", false]
+    },
+    {
+        "id": 4,
+        "question": "En quelle année PHP est sorti",
+        "answer1": ["1995", true],
+        "answer2": ["1994", false],
+        "answer3": ["1997", false],
+        "answer4": ["1992", false]
+    },
+    {
+        "id": 5,
+        "question": "Quelle caractéristique CSS permet de mettre en gras du texte",
+        "answer1": ["font-bold: true;", false],
+        "answer2": ["text-decoration: bold;", false],
+        "answer3": ["weight: bold;", false],
+        "answer4": ["font-weight: bold;", true]
+    },
+    {
+        "id": 6,
+        "question": "Comment afficher le message 'Hello JS' dans la console de debug du navigateur",
+        "answer1": ["console.log( 'Hello JS' );", true],
+        "answer2": ["log( 'Hello JS' );", false],
+        "answer3": ["consol.log( 'Hello JS' );", false],
+        "answer4": ["debug( 'Hello JS' );", false]
+    },
+    {
+        "id": 7,
+        "question": "Le HTML c'est quoi",
+        "answer1": ["un langage de programmation", false],
+        "answer2": ["Un langage de balisage", true],
+        "answer3": ["Un langage de script", false],
+        "answer4": ["Un meta-langage", false]
+    },
+    {
+        "id": 8,
+        "question": "Qui à créé VueJS",
+        "answer1": ["Mark Zuckerber", false],
+        "answer2": ["Evan You", true],
+        "answer3": ["Dan Abramov", false],
+        "answer4": ["Fahed Toumi", false]
+    },
+    {
+        "id": 9,
+        "question": "A quel code corresspond une erreur d'une page non trouvée",
+        "answer1": ["500", false],
+        "answer2": ["404", true],
+        "answer3": ["306", false],
+        "answer4": ["200", false]
+    },
+    {
+        "id": 10,
+        "question": "En Symfony, lequel des éléments suivants renvoie l’objet « Response » à l’utilisateur",
+        "answer1": ["Bundle", false],
+        "answer2": ["Controller", true],
+        "answer3": ["Kernel", false],
+        "answer4": ["Fixture", false]
+    },
+    {
+        "id": 11,
+        "question": "FINI",
+        "answer1": ["FINI", false],
+        "answer2": ["FINI", false],
+        "answer3": ["FINI", false],
+        "answer4": ["FINI", false]
+    }
+]
