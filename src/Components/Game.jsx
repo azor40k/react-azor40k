@@ -18,7 +18,6 @@ const Game = ({type}) => {
     const [questionIncrement, setQuestionIncrement] = useState(1);
     const [backgroundColor, setBackgroundColor] = useState('default');
 
-
     return (
         <section className={`Game ${backgroundColor}`}>
             {questionIncrement !== 11 ? (
@@ -30,7 +29,7 @@ const Game = ({type}) => {
                              setBackgroundColor={setBackgroundColor}/>
                 </>) : <Recap score={score}/>}
         </section>
-    )
-}
+    );
+};
 
 export default Game;

@@ -14,6 +14,6 @@ const App = () => {
             <Routing/>
         </div>
     );
-}
+};
 
 export default App;

@@ -12,7 +12,6 @@ const City = ({cityName}) => {
         </div>
     ) : <LazyLoading />
 
-
     return (
        <>
         {lazyLoading}
