@@ -2,3 +2,9 @@
   text-align : center;
   font-size  : 2.5em;
 }
+
+@media only screen and (max-width: 600px) {
+  .title-theme  {
+    font-size: 2em;
+  }
+}
