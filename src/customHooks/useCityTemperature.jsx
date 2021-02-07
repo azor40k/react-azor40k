@@ -8,8 +8,8 @@ const useCityTemperature = (city) => {
     useEffect(() => {
         const key = 'FsM0ZjcMLVvkxENJKOREbGPw4XCtdIx2';
 
-        const cityUrl = 'http://dataservice.accuweather.com/locations/v1/cities/search';
-        const weatherUrl = 'http://dataservice.accuweather.com/currentconditions/v1/';
+        const cityUrl = 'https://dataservice.accuweather.com/locations/v1/cities/search';
+        const weatherUrl = 'https://dataservice.accuweather.com/currentconditions/v1/';
 
         const cityLowercase = city.toLowerCase()
 
