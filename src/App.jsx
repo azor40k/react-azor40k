@@ -1,10 +1,16 @@
 import Routing from './Route/Router'
 import './App.scss';
+import './Sass/components/App-dark.scss';
+import DarkButton from './Components/DarkButton';
+import { useState } from 'react';
 
-function App() {
+const App = () => {
 
+    const [darkmode, setDarkMode] = useState(false)
+    
     return (
-        <div className="App">
+        <div className={darkmode ? 'App' : 'App-dark'}>
+            <DarkButton setDarkMode={setDarkMode}/>
             <Routing/>
         </div>
     );
