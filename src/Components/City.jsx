@@ -1,8 +1,8 @@
 import useCityTemperature from '../customHooks/useCityTemperature';
 
-const City = ({ cityName }) => {
+const City = ({cityName}) => {
 
-    const { temp, ville } = useCityTemperature(cityName)
+    const {temp, ville} = useCityTemperature(cityName)
 
     return (
         <div>

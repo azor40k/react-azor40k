@@ -1,31 +1,31 @@
 @import "../helpers/_variables";
 
 .quizzButton {
-    cursor: pointer;
-    display: flex;
-    height: 35vh;
-    width: 100%;
-    margin: auto;
-}
+  cursor  : pointer;
+  display : flex;
+  height  : 35vh;
+  width   : 100%;
+  margin  : auto;
+  }
 
 .quizzButton-title {
-    text-align: center;
-    font-size: 2.5em;
-    margin: auto;
-}
+  text-align : center;
+  font-size  : 2.5em;
+  margin     : auto;
+  }
 
 .red {
-    background-color: $game-red;
-}
+  background-color : $game-red;
+  }
 
 .blue {
-    background-color: $game-blue;
-}
+  background-color : $game-blue;
+  }
 
 .orange {
-    background-color: $game-orange;
-}
+  background-color : $game-orange;
+  }
 
 .green {
-    background-color: $game-green;
-}
+  background-color : $game-green;
+  }

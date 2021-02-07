@@ -1,21 +1,26 @@
 @import "./Sass/helpers/_variables";
 
 .App {
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
-  background-color: $purple;
-  color: $white;
+  height           : 100vh;
+  width            : 100vw;
+  overflow         : hidden;
+  background-color : $purple;
+  color            : $white;
 
   a {
-    text-decoration: none;
+    color           : $white;
+    text-decoration : none;
+
+    &:hover {
+      text-decoration : underline;
+      }
     }
-}
+  }
 
-.red{
-  background-color: $red;
-}
+.red {
+  background-color : $red;
+  }
 
-.green{
-  background-color: $green;
-}
+.green {
+  background-color : $green;
+  }

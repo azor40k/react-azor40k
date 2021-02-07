@@ -4,9 +4,9 @@ import Footer from './Footer';
 
 const Home = () => (
     <section>
-        <Presentation />
+        <Presentation/>
         <PlayButton message="Jouer"/>
-        <Footer />
+        <Footer/>
     </section>
 )
 
