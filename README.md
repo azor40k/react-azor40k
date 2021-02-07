@@ -1,9 +1,11 @@
 # Projet React par Rayane Emamdee et Axel Carandang
 
+disponible sur : https://react-lyfe-quizz.netlify.app/
+
 ## Etape pour faire fonctionner le projet
 
 Commencer par cloner le repository avec: 
-### `git clone` [lien du repository]
+### `git clone` https://github.com/IIM-Creative-Technology/react-azor40k/
 #
 Ensuite avant de lancer le projet en local, installer les dépendances avec: 
 ### `npm install`
