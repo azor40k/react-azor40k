@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 const App = () => {
 
-    const [darkmode, setDarkMode] = useState(false)
+    const [darkmode, setDarkMode] = useState(true)
     
     return (
         <div className={darkmode ? 'App' : 'App-dark'}>
@@ -14,6 +14,6 @@ const App = () => {
             <Routing/>
         </div>
     );
-}
+};
 
 export default App;

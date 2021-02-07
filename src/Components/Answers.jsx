@@ -22,10 +22,20 @@ const Answers = ({ setQuestionNb, answers, setQuestionIncrement, setScore, setBa
 
     return (
         <section className="Answers">
-            <AnswerButton color={baseColors[0]} answer={randomizer[0]} setQuestionNb={setQuestionNb} changeToGray={changeToGray} setBaseColors={setBaseColors} setScore={setScore} setQuestionIncrement={setQuestionIncrement} disableButton={disableButton} setDisableButton={setDisableButton} setBackgroundColor={setBackgroundColor}/>
-            <AnswerButton color={baseColors[1]} answer={randomizer[1]} setQuestionNb={setQuestionNb} changeToGray={changeToGray} setBaseColors={setBaseColors} setScore={setScore} setQuestionIncrement={setQuestionIncrement} disableButton={disableButton} setDisableButton={setDisableButton} setBackgroundColor={setBackgroundColor}/>
-            <AnswerButton color={baseColors[2]} answer={randomizer[2]} setQuestionNb={setQuestionNb} changeToGray={changeToGray} setBaseColors={setBaseColors} setScore={setScore} setQuestionIncrement={setQuestionIncrement} disableButton={disableButton} setDisableButton={setDisableButton} setBackgroundColor={setBackgroundColor}/>
-            <AnswerButton color={baseColors[3]} answer={randomizer[3]} setQuestionNb={setQuestionNb} changeToGray={changeToGray} setBaseColors={setBaseColors} setScore={setScore} setQuestionIncrement={setQuestionIncrement} disableButton={disableButton} setDisableButton={setDisableButton} setBackgroundColor={setBackgroundColor}/>
+           {baseColors.map((v, index) => (
+                <AnswerButton 
+                    color={baseColors[index]} 
+                    answer={randomizer[index]} 
+                    setQuestionNb={setQuestionNb} 
+                    changeToGray={changeToGray} 
+                    setBaseColors={setBaseColors} 
+                    setScore={setScore} 
+                    setQuestionIncrement={setQuestionIncrement} 
+                    disableButton={disableButton} 
+                    setDisableButton={setDisableButton} 
+                    setBackgroundColor={setBackgroundColor}
+                />
+            ))}
         </section>
 )};
 

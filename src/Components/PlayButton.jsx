@@ -1,5 +1,5 @@
 import '../Sass/components/PlayButton.scss';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const PlayButton = ({message}) => (
     <Link to="/app">

@@ -1,4 +1,5 @@
-const Score = ({score}) => (
+const Score = ({ score }) => (
+
     <section id="score">
         {score} point(s)
     </section>

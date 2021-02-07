@@ -8,6 +8,6 @@ const Home = () => (
         <PlayButton message="Jouer"/>
         <Footer/>
     </section>
-)
+);
 
 export default Home;

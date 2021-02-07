@@ -10,8 +10,7 @@ const QuizzButtonsList = () => {
             <QuizzButton title="Developpement Web" color="orange" quizz={"devweb"}/>
             <QuizzButton title="Astronomie" color="green" quizz={"astronomie"}/>
         </div>
-    )
-
+    );
 };
 
 export default QuizzButtonsList;

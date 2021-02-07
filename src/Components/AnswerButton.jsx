@@ -24,8 +24,10 @@ const AnswerButton = ({color, answer, setQuestionNb, changeToGray, setBaseColors
     }
     return (
         <>
-            <button disabled={disableButton} className={`AnswerButton ${color}`}
-                    onClick={submitAnswer}>{answer[0]}</button>
+            <button disabled={disableButton} 
+                    className={`AnswerButton ${color}`}
+                    onClick={submitAnswer}>{answer[0]}
+            </button>
         </>
     )
 };

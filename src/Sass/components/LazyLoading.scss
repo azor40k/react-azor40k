@@ -1,0 +1,13 @@
+@import "../helpers/variables";
+
+.lazy {
+    background: $lazy-loading;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 4px;
+  }
+
+.lazy.text {
+    width: 10%;
+    height: 22px;
+  }  

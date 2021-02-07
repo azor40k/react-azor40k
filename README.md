@@ -1,6 +1,6 @@
 # Projet React par Rayane Emamdee et Axel Carandang
 
-disponible sur : https://react-lyfe-quizz.netlify.app/
+disponible sur: https://react-lyfe-quizz.netlify.app/
 
 ## Etape pour faire fonctionner le projet
 
