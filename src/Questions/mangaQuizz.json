@@ -65,9 +65,9 @@
     },
     {
         "id": 9,
-        "question": "Quel est le manga préféré de Rayane",
-        "answer1": ["One Piece", false],
-        "answer2": ["Naruto", true],
+        "question": "Quel est le manga le plus regardé",
+        "answer1": ["One Piece", true],
+        "answer2": ["Naruto", false],
         "answer3": ["Fairy Tail", false],
         "answer4": ["Attaques des Titans", false]
     },

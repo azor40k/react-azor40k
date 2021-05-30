@@ -1,4 +1,4 @@
-# Projet React par Rayane Emamdee et Axel Carandang
+# Projet React par Axel Carandang
 
 disponible sur: https://react-lyfe-quizz.netlify.app/
 
